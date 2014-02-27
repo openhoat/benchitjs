@@ -49,7 +49,7 @@ Bench your own project mocha test :
 
 Bench a functional web testing scenario with [WebBotjs](https://github.com/openhoat/webbotjs) based on a Google Doc sheet, with a timeout of 20s :
 
-    # benchit -n 10 -c 10 -p 5s "webbot -g 0AilC0U4Eb0tjdDRObHlrTDMySms2d0dGZUhWQi10Wmc -i 1 -t 20000"
+    # benchit -n 10 -c 10 -p 5s "webbot -C -g 0AilC0U4Eb0tjdDRObHlrTDMySms2d0dGZUhWQi10Wmc -i 1 -t 20000"
     [2014-02-27 10:38:54.532] [INFO] benchit - job stats : started=0 (0%), completed=0 (0%), running=0 (0%)
     [2014-02-27 10:38:54.533] [INFO] benchit - launching test jobs with : runs=10, concurrent runs=10, command="webbot -g 0AilC0U4Eb0tjdDRObHlrTDMySms2d0dGZUhWQi10Wmc -i 1 -t 20000"
     [2014-02-27 10:38:57.532] [INFO] benchit - job stats : started=10 (100%), completed=0 (0%), running=10 (100%)
