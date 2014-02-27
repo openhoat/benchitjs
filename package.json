@@ -1,0 +1,39 @@
+{
+  "name": "benchitjs",
+  "version": "0.0.1",
+  "description": "BenchItjs helps you to bench anything",
+  "main": "lib/benchit",
+  "author": {
+    "name": "Olivier Penhoat",
+    "email": "openhoat@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openhoat/benchitjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openhoat/benchitjs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/openhoat/benchitjs/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "bin": {
+    "benchit": "./bin/benchit"
+  },
+  "dependencies": {
+    "log4js": "0.6.10",
+    "hw-util": "0.0.12",
+    "q": "1.0.0",
+    "simple-statistics": "0.7.0",
+    "commander": "2.1.0",
+    "nanotimer": "0.3.0"
+  },
+  "devDependencies": {
+  }
+}

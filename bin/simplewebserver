@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+var noRequest = 0;
+
+require('http').createServer(function (req, res) {
+    var duration = 200 * Math.floor((Math.random() * 10) + 1);
+    //console.log('incoming request #%s : duration=%sms', (++noRequest), duration);
+    setTimeout(function() {
+      res.writeHead(200, { 'Content-Type': 'text/plain' });
+      res.write('Hello');
+      res.end();
+    }, duration);
+  }
+).listen(3000, function(err) {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log('simple web server ready.');
+});
+
