@@ -1,10 +1,9 @@
 #!/bin/bash
 
-pause=$1
-if [[ -z $pause ]]; then
-  pause=1
-fi
+duration=$1
 
-echo -n "waiting for ${pause}s... "
-sleep ${pause}
+if [[ ! -z ${duration} ]]; then
+    echo "waiting for ${duration}s... " 1>&2
+    sleep ${duration}
+fi
 echo "done."

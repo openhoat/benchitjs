@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "log4js": "0.6.10",
-    "hw-util": "0.0.12",
+    "hw-util": "0.0.15",
     "q": "1.0.0",
     "simple-statistics": "0.7.0",
     "commander": "2.1.0",
