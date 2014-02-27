@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/openhoat/benchitjs.png?branch=master)](https://travis-ci.org/openhoat/benchitjs)
-
 ## What's BenchItjs?
 
 BenchItjs provides a simple way to run load tests.
