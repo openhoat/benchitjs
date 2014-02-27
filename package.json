@@ -1,6 +1,6 @@
 {
   "name": "benchitjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "BenchItjs helps you to bench anything",
   "main": "lib/benchit",
   "author": {

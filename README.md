@@ -62,6 +62,8 @@ Bench a functional web testing scenario with [WebBotjs](https://github.com/openh
     [2014-02-27 10:39:08.896] [INFO] benchit - duration report (ms) : min=5407, max=14357, average=11019
     [2014-02-27 10:39:08.896] [INFO] benchit - done
 
+BenchIt works with any kind of command, give it a try with your favourite one *(^_-)*
+
 Type "benchit --help" for more information about usage
 
 Enjoy !
