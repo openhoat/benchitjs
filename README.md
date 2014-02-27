@@ -31,7 +31,7 @@ Bench it with 1 request :
     [2014-02-27 10:05:26.245] [INFO] benchit - duration report (ms) : min=3004, max=3004, average=3004
     [2014-02-27 10:05:26.245] [INFO] benchit - done
 
-With 100 concurrent runs with a total of 300 runs :
+With 100 concurrent runs and a total of 300 runs :
 
     # benchit -n 300 -c 100 "pause.sh 3"
     [2014-02-27 10:26:19.614] [INFO] benchit - job stats : started=0 (0%), completed=0 (0%), running=0 (0%)
