@@ -27,12 +27,11 @@
     "benchit": "./bin/benchit"
   },
   "dependencies": {
-    "hw-util": "0.0.17",
-    "q": "1.0.0",
-    "simple-statistics": "0.7.0",
-    "commander": "2.1.0",
-    "nanotimer": "0.3.0",
-    "npmlog": "0.0.6"
-  },
-  "devDependencies": {}
+    "hw-util": "~0.2.0",
+    "q": "~1.0.1",
+    "simple-statistics": "~0.7.0",
+    "commander": "~2.1.0",
+    "nanotimer": "~0.3.0",
+    "hw-logger": "~0.1.1"
+  }
 }

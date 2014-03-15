@@ -1,6 +1,9 @@
 {
   "env": "development",
   "log": {
-    "level": "info"
+    "level": "info",
+    "format": {
+      "heading": "benchit"
+    }
   }
 }
